@@ -1,0 +1,58 @@
+body {
+    background-color: #ffffff; /* Warna latar belakang */
+font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.navbar-brand {font-size: 50px;
+    display: flex;
+}
+.nav-link{
+    font-size: 30px;
+    color: rgb(3, 187, 248);
+    display: flex;
+    position: relative;
+    padding: 1rem;
+}
+
+
+
+h2 {
+    margin-top: 30px; /* Jarak atas untuk judul */
+    margin-bottom: 20px; /* Jarak bawah untuk judul */
+}
+
+.card {
+    margin-bottom: 20px; /* Jarak bawah untuk setiap kartu produk */
+}
+
+.carousel-item img {
+    height: 600px; /* Tinggi gambar carousel */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+}
+
+.modal-body img {
+    max-width: 100%; /* Memastikan gambar modal responsif */
+    height: auto; /* Tinggi otomatis untuk menjaga proporsi */
+}
